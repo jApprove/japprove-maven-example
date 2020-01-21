@@ -10,7 +10,7 @@ public class StringFormatter {
         for (String s : strings) {
             s = s.trim();
             s = s.toLowerCase();
-            //s = s.substring(0, 1).toUpperCase() + s.substring(1);
+            s = s.substring(0, 1).toUpperCase() + s.substring(1);
             formattedStrings.add(s);
         }
         return formattedStrings;
