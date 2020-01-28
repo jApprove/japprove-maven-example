@@ -7,7 +7,7 @@ import org.japprove.verifier.StringVerifier;
 
 public class StringFormatterTest {
 
-    @ApprovalTest(baseline = "strings")
+    @ApprovalTest(baseline = "names")
     void testFormat(StringVerifier stringVerifier) {
         // arrange
         List<String> names = Arrays.asList("PETER", "MiKe", "joHn", " pAuL ");
